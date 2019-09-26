@@ -1,0 +1,26 @@
+body {
+    background: url(../img/bg.png) no-repeat center;
+    width: 750px;
+    margin: 0 auto;
+    padding: 1em;
+    text-align: center;
+}
+.hide {
+    display: none;
+}
+#avatar {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+#avatar img {
+    width: 100%;
+}
+
+#avatar_template {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
