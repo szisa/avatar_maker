@@ -31,6 +31,7 @@ document.getElementById('next').onclick = function(ev) {
 }
 
 function loadImage() {
+    if(document.getElementById('upload').files.length == 0) return
     var imgUrl = window.URL.createObjectURL(document.getElementById('upload').files[0]);
     document.getElementById('avatar_img').src = imgUrl;
     drawToCanvas(imgUrl, document.getElementById('avatar_template').src);
