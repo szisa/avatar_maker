@@ -1,8 +1,6 @@
 body {
-    background: url(../img/bg.png) no-repeat center;
-    width: 750px;
+    background: #000 url(../img/bg.png) no-repeat center;
     margin: 0 auto;
-    padding: 1em;
     text-align: center;
 }
 .hide {
